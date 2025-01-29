@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "b1.svg",
     spareImg: "",
   },
   {
@@ -43,8 +43,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "grid.svg",
+    spareImg: "b4.svg",
   },
 
   {
@@ -54,8 +54,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "b5.svg",
+    spareImg: "grid.svg",
   },
   {
     id: 6,
@@ -74,8 +74,8 @@ export const projects = [
     id: 1,
     title: "Movie Site ",
     des: "Explore the wonders of our movie and the Trending onces.",
-    img: "/movie.png",
-    iconLists: ["/re.svg", "/javas.svg", "/tail.svg","/app.svg"],
+    img: "movie.png",
+    iconLists: ["re.svg", "javas.svg", "tail.svg","app.svg"],
     link: "https://chaima1111.github.io/Movie_Trend/",
       github:"https://github.com/chaima1111/Movie_Trend"
 
@@ -84,9 +84,9 @@ export const projects = [
     id: 2,
     title: "CA bag Shop",
     des: "A bag shop offers a variety of stylish , work, and daily use..",
-    img: "/caShop.png",
+    img: "caShop.png",
     // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    iconLists: ["/ht.svg", "/javas.svg", "/css.svg",],
+    iconLists: ["ht.svg", "javas.svg", "css.svg",],
     link: "https://vercel.com/chaima1111s-projects/ca-bag-shop/GkEftjHsaiktN4bUYnFYhRdymDyg",
       github:"https://github.com/chaima1111/Prestige_ecommerce"
 
@@ -95,8 +95,8 @@ export const projects = [
     id: 3,
     title: "CA Full stask bag Shop",
     des: "A bag shop with dashboard offers a variety of stylish and functional bags for travel, work, and daily use..",
-    img: "/dash.png",
-    iconLists: ["/ht.svg", "/javas.svg", "/css.svg","php.svg","mysql-icon.svg"],
+    img: "dash.png",
+    iconLists: ["ht.svg", "javas.svg", "css.svg","php.svg","mysql-icon.svg"],
     link: "https://youtu.be/tM7iqf5PMMk",
     github:""
 
@@ -105,8 +105,8 @@ export const projects = [
     id: 4,
     title: "AI gpt3 Frontend Page -",
     des: " The creation of Modern UX/UI Websites.",
-    img: "/gpt3.png",
-    iconLists: ["/re.svg", "/css.svg"],
+    img: "gpt3.png",
+    iconLists: ["re.svg", "css.svg"],
     link: "https://ai-gpt3-qcko-5suru3jlt-chaima1111s-projects.vercel.app/",
     github:"https://github.com/chaima1111/AI-gpt3"
 
@@ -115,8 +115,8 @@ export const projects = [
     id: 5,
     title: "Leon Template",
     des: "We are Leon - Super Creative & Minimal Agency Web Template...",
-    img: "/leon.png",
-    iconLists: ["/ht.svg", "/css.svg",],
+    img: "leon.png",
+    iconLists: ["ht.svg", "css.svg",],
     link: "https://chaima1111.github.io/Html_CSS_template-_One/",
     github:"https://github.com/chaima1111/Html_CSS_template-_One?tab=readme-ov-file"
   },
@@ -124,8 +124,8 @@ export const projects = [
     id: 6,
     title: "Kasper Template",
     des: "We Are Kasper We Make Art.",
-    img: "/kasper.png",
-    iconLists: ["/ht.svg", "/css.svg",],
+    img: "kasper.png",
+    iconLists: ["ht.svg", "css.svg",],
     link: "https://chaima1111.github.io/Html_CSS_template_Two/",
     github:"https://github.com/chaima1111/Html_CSS_template_Two?tab=readme-ov-file"
   },
@@ -231,12 +231,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "git.svg",
     link:"https://github.com/chaima1111"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "link.svg",
         link:"https://www.linkedin.com/in/chaima-cheniti-0bb762242/"
 
   },
