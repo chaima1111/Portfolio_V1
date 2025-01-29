@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I'm passionate about technology, exploring, building, and securing the digital world. 🚀",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I love to communicate with others to get more EXP",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently learning advanced feature of React JS",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,35 +72,62 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Movie Site ",
+    des: "Explore the wonders of our movie and the Trending onces.",
+    img: "/movie.png",
+    iconLists: ["/re.svg", "/javas.svg", "/tail.svg","/app.svg"],
+    link: "https://chaima1111.github.io/Movie_Trend/",
+      github:"https://github.com/chaima1111/Movie_Trend"
+
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "CA bag Shop",
+    des: "A bag shop offers a variety of stylish and functional bags for travel, work, and daily use..",
+    img: "/caShop.png",
+    // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/ht.svg", "/javas.svg", "/css.svg",],
+    link: "https://vercel.com/chaima1111s-projects/ca-bag-shop/GkEftjHsaiktN4bUYnFYhRdymDyg",
+      github:"https://github.com/chaima1111/Prestige_ecommerce"
+
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "CA Full stask bag Shop",
+    des: "A bag shop with dashboard offers a variety of stylish and functional bags for travel, work, and daily use..",
+    img: "/dash.png",
+    iconLists: ["/ht.svg", "/javas.svg", "/css.svg","php.svg","mysql-icon.svg"],
+    link: "https://youtu.be/tM7iqf5PMMk",
+    github:""
+
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "AI gpt3 Frontend Page -",
+    des: " The creation of Modern UX/UI Websites.",
+    img: "/gpt3.png",
+    iconLists: ["/re.svg", "/css.svg"],
+    link: "https://ai-gpt3-qcko-5suru3jlt-chaima1111s-projects.vercel.app/",
+    github:"https://github.com/chaima1111/AI-gpt3"
+
+  },
+  {
+    id: 5,
+    title: "Leon Template",
+    des: "We are Leon - Super Creative & Minimal Agency Web Template...",
+    img: "/leon.png",
+    iconLists: ["/ht.svg", "/css.svg",],
+    link: "https://chaima1111.github.io/Html_CSS_template-_One/",
+    github:"https://github.com/chaima1111/Html_CSS_template-_One?tab=readme-ov-file"
+  },
+  {
+    id: 6,
+    title: "Kasper Template",
+    des: "We Are Kasper We Make Art.",
+    img: "/kasper.png",
+    iconLists: ["/ht.svg", "/css.svg",],
+    link: "https://chaima1111.github.io/Html_CSS_template_Two/",
+    github:"https://github.com/chaima1111/Html_CSS_template_Two?tab=readme-ov-file"
   },
 ];
 
@@ -205,13 +232,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link:"https://github.com/chaima1111"
   },
   {
     id: 3,
     img: "/link.svg",
+        link:"https://www.linkedin.com/in/chaima-cheniti-0bb762242/"
+
   },
 ];
