@@ -83,7 +83,7 @@ export const projects = [
   {
     id: 2,
     title: "CA bag Shop",
-    des: "A bag shop offers a variety of stylish and functional bags for travel, work, and daily use..",
+    des: "A bag shop offers a variety of stylish , work, and daily use..",
     img: "/caShop.png",
     // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     iconLists: ["/ht.svg", "/javas.svg", "/css.svg",],
