@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.jpg" className="rounded-lg" sizes="any" />
+        <link rel="icon" href="logo.jpg" className="rounded-lg" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
