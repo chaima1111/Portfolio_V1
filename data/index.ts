@@ -87,7 +87,7 @@ export const projects = [
     img: "caShop.png",
     // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     iconLists: ["ht.svg", "javas.svg", "css.svg",],
-    link: "https://vercel.com/chaima1111s-projects/ca-bag-shop/GkEftjHsaiktN4bUYnFYhRdymDyg",
+    link: "https://ca-bag-shop-8ijhmzjna-chaima1111s-projects.vercel.app/",
       github:"https://github.com/chaima1111/Prestige_ecommerce"
 
   },
