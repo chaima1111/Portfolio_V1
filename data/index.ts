@@ -105,7 +105,7 @@ export const projects = [
     des: "You can select any country and check its weather..",
     img: "weather.png",
     iconLists: ["ht.svg", "javas.svg", "css.svg",],
-    link: "https://github.com/chaima1111/check_weather",
+    link: "https://check-weather-mu.vercel.app/",
       github:"https://github.com/chaima1111/check_weather"
 
   },
