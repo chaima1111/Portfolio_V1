@@ -99,9 +99,18 @@ export const projects = [
     link: "https://youtu.be/tM7iqf5PMMk",
     github:""
 
+  },{
+    id: 4,
+    title: "Weather Api App",
+    des: "You can select any country and check its weather..",
+    img: "caShop.png",
+    iconLists: ["ht.svg", "javas.svg", "css.svg",],
+    link: "check-weather-mu.vercel.app",
+      github:"https://github.com/chaima1111/check_weather"
+
   },
   {
-    id: 4,
+    id: 5,
     title: "AI gpt3 Frontend Page -",
     des: " The creation of Modern UX/UI Websites.",
     img: "gpt3.png",
@@ -111,7 +120,7 @@ export const projects = [
 
   },
   {
-    id: 5,
+    id: 6,
     title: "Leon Template",
     des: "We are Leon - Super Creative & Minimal Agency Web Template...",
     img: "leon.png",
@@ -120,7 +129,7 @@ export const projects = [
     github:"https://github.com/chaima1111/Html_CSS_template-_One?tab=readme-ov-file"
   },
   {
-    id: 6,
+    id: 7,
     title: "Kasper Template",
     des: "We Are Kasper We Make Art.",
     img: "kasper.png",
