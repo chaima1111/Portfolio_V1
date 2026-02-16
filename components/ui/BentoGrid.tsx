@@ -36,7 +36,6 @@ export const BentoGridItem = ({
   id,
   title,
   description,
-  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
@@ -52,7 +51,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "JavaScript"];
-  const rightLists = ["MySQL", "NextJS", "MongoDB"];
+  const rightLists = ["Python", "NextJS", "MongoDB"];
 
   const [copied, setCopied] = useState(false);
 
@@ -88,27 +87,29 @@ export const BentoGridItem = ({
       {/* add img divs */}
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
+          
           {img && (
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover object-center ")}
+              className={cn(imgClassName, "object-cover object-center rounded-xl")}
             />
           )}
         </div>
         <div
           className={`absolute right-0 -bottom-5 ${
-            id === 5 && "w-full opacity-80"
+            id === 5 && "w-full opacity-80 h-full object-cover object-center size-full rounded-xl  "
           } `}
         >
           {spareImg && (
             <img
               src={spareImg}
               alt={spareImg}
-              //   width={220}
-              className="object-cover object-center w-full h-full"
+                // width={220}
+              className="object-cover object-center w-full h-full rounded-xl "
             />
           )}
+
         </div>
         {id === 6 && (
           // add background animation , remove the p tag
@@ -130,13 +131,17 @@ export const BentoGridItem = ({
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-          >
+  className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10 ${
+    id === 1 ? "whitespace-pre-line" : ""
+  }`}
+>
             {title}
+            
           </div>
 
           {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
+          
 
           {/* Tech stack list div */}
           {id === 3 && (

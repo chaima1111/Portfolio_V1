@@ -30,7 +30,6 @@ const Grid = () => {
           )
         )}
       </BentoGrid>
-      {/* <div className="md:row-span-2 ">hell</div> */}
     </section>
   );
 }

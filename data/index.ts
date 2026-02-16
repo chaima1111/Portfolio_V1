@@ -7,7 +7,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I'm passionate about technology, exploring, building, and securing the digital world. 🚀",
+    title: "Cybersecurity Training Platforms \n🚀 TryHackMe - 5 rooms completed\n 🚀HackTheBox - Hacker Rank | 25 machines pwned ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -48,12 +48,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently learning advanced feature of React JS",
+    title: "Currently learning security aspects, I've acheived a Cisco CyberOps Associate certificate.",
     description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "b5.svg",
+    img: "certificate.jpg",
     spareImg: "grid.svg",
   },
   {

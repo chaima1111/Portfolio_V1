@@ -33,7 +33,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-tighter-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi ,I &apos;m Chaima,a FullStack Developer and Cyber Security student 
+            Hi ,I &apos;m Chaima, Cyber Security student and web Developer passionate 
           </p>
           <a href="#about">
             <MagicButtom title="show my work" 
